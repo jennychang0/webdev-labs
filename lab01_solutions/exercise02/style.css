@@ -6,9 +6,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* uncomment viewport line */
+
 main {
-    display: flex;
+    display: flex; /* FIRST!!! dynamically fitting things onto the screen*/
 }
+
+/* COPIED */
 section {
     margin: 10px;
     border: solid 1px #CCC;
@@ -19,7 +23,7 @@ section h2, section p, section button {
     margin-right: 20px;
 }
 section p {
-    line-height: 1.4em;
+    line-height: 1.4em; /*n ot essential */
 }
 section img {
     width: 100%;
@@ -27,15 +31,15 @@ section img {
 
 @media only screen and (max-width: 1000px) {
     main {
-        flex-wrap: wrap;
+        flex-wrap: wrap; /* wrap around */
     }
     section {
-        width: calc(50% - 20px);
+        width: calc(50% - 20px); /* because we want two to fit */
     }
 }
 
 @media only screen and (max-width: 600px) {
     section {
-        width: 100%;
+        width: 100%; /* because we want just one to fit */
     }
 }

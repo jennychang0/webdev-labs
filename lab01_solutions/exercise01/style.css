@@ -6,16 +6,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* just need to connect style sheet from html */
+/* intro + name + grade + experience with javascript/webdevelopment/github + favorite tv show */
+
 section {
-    width: 350px;
-    margin: 10px;
-    border: solid 1px #CCC;
-    padding-bottom: 20px;
+    width: 350px; /* SECOND- fixes width! */
+    margin: 10px; /* styling */ 
+    border: solid 1px #CCC; /* FIRST - adds border */ 
+    padding-bottom: 20px; /* styling */
 }
 section h2, section p, section button {
     margin-left: 20px;
     margin-right: 20px;
 }
 section img {
-    width: 100%;
+    width: 100%; /*THIRD PHOTO ALIGN*/
 }
